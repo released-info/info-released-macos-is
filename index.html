@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1757809450-->
+<!--timestamp=1790025384-->
 
 <head>
   <meta charset="UTF-8">
@@ -12,25 +12,25 @@
           crossorigin="anonymous"></script>
   
   <title>
-    Is macOS 16.0 Released?
+    Is macOS 27 Released?
   </title>
   <link rel="icon" href="https://released.info/assets/img/technologies/macos/macos.ico" type="image/svg+xml">
-  <meta name="description" content="Is macOS 16.0 Released?">
+  <meta name="description" content="Is macOS 27 Released?">
   <meta name="keywords" content="MacOS, release, date, when, os, operating, system">
-  <meta name=”robots” content="index, follow">
+  <meta name="robots" content="index, follow">
 
   <!-- facebook -->
   <meta property="og:url" content="https://is.macos.released.info" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Is macOS 16.0 Released?" />
-  <meta property="og:description" content="macOS 16.0 will be released in 17 days! #released.info" />
+  <meta property="og:title" content="Is macOS 27 Released?" />
+  <meta property="og:description" content="macOS 27 has been released! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/macos/macos-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
-  <meta name="twitter:title" content="Is macOS 16.0 Released?" />
-  <meta name="twitter:description" content="macOS 16.0 will be released in 17 days! #released.info" />
+  <meta name="twitter:title" content="Is macOS 27 Released?" />
+  <meta name="twitter:description" content="macOS 27 has been released! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/macos/macos-logo.png" />
 
   <meta name="url" content="https://is.macos.released.info" />
@@ -47,7 +47,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="17" />
+  <input id="released-days" type="hidden" value="0" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -72,25 +72,26 @@
           </li>
         </ul>
         <h2>
-          Is macOS 16.0 Released?
+          Is macOS 27 Released?
         </h2>
         <div class="row">
           <div class="col-lg-8">
 
             <div id="logo">
-              <span role="img" aria-label="${configuration.logoAlt}"
+              <span role="img" aria-label="MacOS logo"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/macos/macos-logo.png&#39;);">
               </span>
             </div>
 
             <!-- CHOOSE ONE OF BELOW SECTIONS HERE -->
 
-            
             <span>
-              <div class="odometer-content" id="counter">
-                <div id="odometer"></div>
+              <div class="white-box" id="time-out">
+                It's Out!
               </div>
             </span>
+            
+            <!-- A counter that reached zero falls back to "Not Yet" instead of an empty box until the state is updated -->
             
             
 
@@ -101,10 +102,14 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              Days until macOS 16.0 is officially released
+              macOS 27 has been released on <span class="btn-primary">14th September 2026</span>
             </h3>
           </div>
-          
+          <div class="col-lg-8">
+            <h4 id="highlightTextDescription2">
+              macOS 27 "Golden Gate" was announced at WWDC on 8th June 2026, macOS 26 Tahoe came out on 15th September 2025
+            </h4>
+          </div>
         </div>
         <div class="text-center">
           <a class="share-twitter" target="_blank">
@@ -118,26 +123,26 @@
     <section class="features-section">
       <div class="container-lg">
         <h2>
-          Meet macOS 16.0
+          Meet macOS 27
         </h2>
         <div class="row mb-5">
           <div class="col-md-5">
 
             <ul>
               <li>
-                Window Tiling
+                Window border shapes consistent across applications
               </li>
             </ul>
 
             <ul>
               <li>
-                Passwords App
+                Redesigned traffic light window controls
               </li>
             </ul>
 
             <ul>
               <li>
-                Enhanced Videoconferencing Tools
+                Liquid Glass design refinements
               </li>
             </ul>
 
@@ -145,27 +150,27 @@
           <div class="col-md-5">
             <ul>
               <li>
-                Safari Enhancements
+                The classic glove cursor returns
               </li>
             </ul>
             <ul>
               <li>
-                Game Mode
+                First macOS exclusively for Apple silicon Macs
               </li>
             </ul>
             <ul>
               <li>
-                Apple Maps Updates
+                Pull-to-refresh in Safari, Mail, News and Calendar
               </li>
             </ul>
           </div>
         </div>
         <div class="text-center">
-          <a target="_blank" href="https://www.nextpit.com/macos-sonoma" class="btn btn-primary btn-lg">Read more</a>
+          <a target="_blank" href="https://en.wikipedia.org/wiki/MacOS_27" class="btn btn-primary btn-lg">Read more</a>
         </div>
       </div>
       <div class="logo-container">
-        <span role="img" aria-label="${configuration.logoAlt2}"
+        <span role="img" aria-label="MacOS logo"
           style="background-image: url(&#39;https://released.info/assets/img/technologies/macos/macos-logo2.png&#39;);">
         </span>
       </div>
@@ -182,7 +187,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: macOS Big Sur For Dummies"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/macos/book-macOS-Big-Sur-For-Dummies.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/11330104?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=8a84f9694a769a1b7d2549453810f1c7&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -196,7 +201,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: The macOS User Administration Guide"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/macos/book-The-macOS-User-Administration-Guide.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/1838643656?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=5ab3f47ca60578308d4b88a77881570c&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -210,7 +215,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: MacOS Big Sur User Guide"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/macos/book-MacOS-Big-Sur-User-Guide.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/B08PJ1LLK8?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=2f9b206b5879ca768c41adeb21eb3df1&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -224,7 +229,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Learning Unix for OS X"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/macos/book-Learning-Unix-for-OS-X.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/1491939982?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=d519a8bdb7b3c999c8a20826035636ad&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -238,7 +243,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Macintosh Terminal Pocket Guide"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/macos/book-Macintosh-Terminal-Pocket-Guide.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/1449328342?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=55d8ac4c6b9c9fd2c04893b6b2209849&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -252,7 +257,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: MacOS Big Sur"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/macos/book-MacOS-Big-Sur.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/B08NZYVY7Y?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=aebba3449a7ff525c39b347950097843&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -331,10 +336,7 @@
         but it has recently been updated to be dynamic according to apps you have open, time of the day, etc.
         This feature only adds to how seamless and well-thought MacOS feels.<br />
         <h3>Releases</h3>
-        We are currently in the 11.4 stable release, put out to the public on May 24, 2021. The 11.5 version is
-        underway,
-        with the latest beta update posted on May 19, 2021. 11.5 will feature mostly security updates,
-        but stay tuned to what Apple releases to catch any new flashy features that might be added to the software.
+        The current stable release is macOS 27 Golden Gate, released on 14th September 2026 after its announcement at WWDC on 8th June 2026, and macOS 27.2 is already in beta. It is the first macOS that runs only on Apple silicon Macs, so stay tuned to what Apple releases to catch any new flashy features that might be added to the software.
     </div>
 </div>
       </div>
